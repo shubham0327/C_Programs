@@ -1,1 +1,9 @@
+#commands to ignore binary files without extensions
+# Ignore all
+*
+#white-listing the parent folders recursively
+!/**/
+# Unignore all with extensions
+!*.*
+
 a.out
