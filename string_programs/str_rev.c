@@ -9,6 +9,11 @@ int main()
     char str[20]= "Hello, World!!!";
     char tmp;
     int i=0,len=0;
+    
+    if (str[] == NULL) {
+    printf("String is not present\n");
+    return 1;
+    }
     for(len = 0; str[len] != '\0'; len++);
 
     for(i = 0; i<len/2 && str[i] != '\0' ; i++)
