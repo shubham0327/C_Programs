@@ -6,7 +6,7 @@
 
 int main()
 {
-	char src[20]= " world!!!";
+    char src[20]= " world!!!";
     char dst[20]= "Hello,";
     int i=0,j=0;
     while(dst[j] != '\0')
