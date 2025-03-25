@@ -10,7 +10,7 @@ int main()
     char tmp;
     int i=0,len=0;
     
-    if (str[] == NULL) {
+    if (str == NULL) {
     printf("String is not present\n");
     return 1;
     }
