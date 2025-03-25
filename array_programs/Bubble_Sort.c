@@ -7,7 +7,7 @@ Bubble sort array
 int main()
 {
 int arr[]={25,15,17,10,5};
-int t;
+int temp;
 int ele =sizeof(arr)/sizeof(arr[0]);
   
   for(int i=0;i<ele-1;i++)
@@ -16,9 +16,9 @@ int ele =sizeof(arr)/sizeof(arr[0]);
         {
           if(arr[j]>arr[j+1])
           {
-            t=arr[j];
+            temp=arr[j];
             arr[j]=arr[j+1];
-            arr[j+1]=t;
+            arr[j+1]=temp;
           }
         }
     }
