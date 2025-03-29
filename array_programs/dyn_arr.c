@@ -35,6 +35,6 @@ for(int i = 0;i<size;i++)
 {
     scanf("%d",&arr[i]);
 }
-FindNonRepEle{int arr[],size);
+FindNonRepEle(int arr[],size);
 return 0;
 }
