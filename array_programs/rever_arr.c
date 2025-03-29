@@ -1,4 +1,10 @@
-// Online C compiler to run C program online
+// WAP Reverse the array element without using temporary variable
+
+//Logic used 
+/* a=a+b;
+ b=a-b;
+ a=a-b;*/
+
 #include <stdio.h>
 void reversearray(int arr[], int size)
 {
