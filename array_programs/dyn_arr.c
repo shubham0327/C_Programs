@@ -1,19 +1,21 @@
 //volatile uint32_t* const pHardwareRegister = (uint32_t*)0x00020000;
 //WAP allocate memory dynamically and print the non repeating number
 #include <stdio.h>
+#include <stdlib.h>
 void FindNonRepEle(int arr[],size)
 {
-    int freqency[10] = {0};
+    int freqeuncy[10] = {0};
     for(int j = 0;j <size;j++)
     {
-        freqency[arr[i]]++
+        freqeuncy[arr[i]]++;
     }
-    printf("Non-Repeating elements are:");
+    
+    printf("Non-Repeating elements is :\n");
     for(int k = 0; k<size;k++)
     {
-        if(frequency[arr[k]] == 1)
+        if(freqeuncy[arr[k]] == 1)
         {
-            printf("%d", arr[k]);
+            printf("%d \n", arr[k]);
         }
     }
     printf("\n");
@@ -35,6 +37,6 @@ for(int i = 0;i<size;i++)
 {
     scanf("%d",&arr[i]);
 }
-FindNonRepEle(int arr[],size);
+FindNonRepEle(arr,size);
 return 0;
 }
