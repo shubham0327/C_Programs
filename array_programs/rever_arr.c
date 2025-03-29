@@ -8,6 +8,7 @@ void reversearray(int arr[], int size)
     {
         arr[start] = arr[start] + arr[end];
         arr[end] = arr[start] - arr[end];
+        arr[end] = arr[start] - arr[end];
         start++;
         end--;
     }
