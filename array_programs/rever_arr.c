@@ -1,4 +1,4 @@
-// WAP Reverse the array element without using temporary variable
+// WAP Reverse the array element without using "temporary variable"
 
 //Logic used 
 /* a=a+b;
