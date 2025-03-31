@@ -1,7 +1,7 @@
-// Online C compiler to run C program online
-
+// WAP reverse the given hexa value
 //i/p=0x14B5
 //o/p=0x5B41
+
 #include <stdio.h>
 unsigned int reverse(unsigned int hexnum)
 {
@@ -16,8 +16,9 @@ unsigned int reverse(unsigned int hexnum)
 }
 int main() {
     unsigned int inputval = 0x14B5;
+    printf("output 0x%x\n",inputval);
     unsigned int output = reverse(inputval);
-    printf("output %x\n",output);
+    printf("output 0x%x\n",output);
 
     return 0;
 }
