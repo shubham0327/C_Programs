@@ -8,13 +8,13 @@ int main()
 {
     char str1[20]= "welcome_to_myworld";
     char str2[20]= "welcome_to_myworld";
-    int i=0,res=0;
+    int i=0,res=0,flag=0;
     // Check if strings have the same length
     if (strlen(str1) != strlen(str2)) {
         printf("Strings are not equal\n");
         return 0; // Exit the program
     }
-	   for(i=0;str[i]!='\0';i++)
+	   for(i=0;str1[i]!='\0';i++)
     {
          flag =1;// assume strings are not equal
          if(str1[i]!=str2[i])
