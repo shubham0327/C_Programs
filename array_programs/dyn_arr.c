@@ -20,6 +20,17 @@ void FindNonRepEle(int arr[],int size)
     }
     printf("\n");
 }
+
+
+int findUnique(int arr[], int size) {
+    int result = 0;
+    
+    for (int i = 0; i < size; i++) {
+        result ^= arr[i]; // XOR operation
+    }
+    
+    return result;
+}
 int main() {
 int size = 0;
 int *arr;
@@ -38,5 +49,10 @@ for(int i = 0;i<size;i++)
     scanf("%d",&arr[i]);
 }
 FindNonRepEle(arr,size);
+
+// Second method
+int uniqueElement = findUnique(arr, size);
+printf("The non-repeating element is: %d \n", uniqueElement);
+
 return 0;
 }
