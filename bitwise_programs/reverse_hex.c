@@ -14,6 +14,20 @@ unsigned int reverse(unsigned int hexnum)
     }
     return reversenum;
 }
+// Second method
+unsigned int reverse(unsigned int hexnum)
+{
+    unsigned int result =0;
+    if(hexnum !=0)
+    {
+    result |= (hexnum & 0x000f) << 12;
+    result |= (hexnum & 0x00f0) << 4;
+    result |= (hexnum & 0x0f00) >> 4;
+    result |= (hexnum & 0xf000) >> 12;
+    }
+    
+    return result;
+}
 int main() {
     unsigned int inputval = 0x14B5;
     printf("output 0x%x\n",inputval);
