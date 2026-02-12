@@ -27,3 +27,15 @@ int main(){
     return 0;
     
 }
+
+/*2nd aproach using one for loop */
+void find_dplicate(int arr[],int len){
+int freq[256]={0};
+int i;
+    for(i=0;i<len;i++){
+        freq[arr[i]]++;
+            if(freq[arr[i]]==2){
+             printf("total number of duplicate elements= %d\n",count);
+            }
+
+}
