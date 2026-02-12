@@ -1,1 +1,12 @@
+#inlcude<stdio.h>
 
+int main(){
+int num=20;
+int count=0;
+while(n>0){
+count+=num&1;
+num>>=1;
+}
+printf("Set bit present in given number are %d\n",count);
+
+}
